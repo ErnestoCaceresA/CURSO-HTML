@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- palabras clave para buscadores del navagador -->
+    <meta name="keywords" content="portafolio, html, programacio, practicas">
+    <!-- mas metadatos -->
+    <meta name="description" content="Esta es una pagina de prueba donde subo todo el contenido de un curso sobre desarrollo web">
+    <meta name="author" content="Ernesto Caceres">
+    <meta name="copyright" content="Facebook Inc.">
+
+    <!-- ICONO -->
+    <link rel="icon" href="iconos/amor1ICONO.ico">
+
+    <title>CURSO DALTO HTML</title>
+</head>
+<body>
+    
+    <!-- IMPORTANTE -->
+    <center>
+        <h2>NO USAR HTML PARA COSAS VISUALES COMO LO  HICE AQUI QUE ES SOLO DE PRACTICA PARA APRENDER HTML COMPLETO<br> NO USAR TANTO LOS "br" EL "center"  Y TODO ESO, <b>ESO SE HACE CON CSS</b></h2>
+
+        <h2>TAMPOCO DEJAR COSAS  AL AIRE EN EL CODIGO COMO LO  HICE AQUI PARA QUE SE DIFERENCIE CADA  APARTADO DEL CURSO CON LOS "******" Y EL TEMA SIN ETIQUETA, etc  <br> TODO LLEVA ETIQUETA YA SEA DE PARRAFO DE ARTICULO DE h1 a h6 etc</h2>
+
+        <h3> <br> USAR LOS DIVS EN CODIGO Y HTML SEMANTICO (NO COMO LO HICE AQUI)</h3>
+    </center>
+    <!-- IMPORTANTE -->
+
+
+    **********************************
+    <br>  REFERENCIAS Y ETIQUETAS <br>
+    **********************************
+    <!-- REFERENCIAS Y ETIQUETAS -->
+    <div>
+
+        <p>
+            Lorem <strike>ipsum dolor</strike> , sit amet <b>adipisicing</b> elit.<br><br>
+            Consequatur <i>dolor</i>  tenetur voluptate maxime fugiat pariatur a quam      reprehenderit nesciunt amet laborum saepe eum praesentium commodi illo,    sed blanditiis laboriosam odit. <br>
+            <!-- REFERENCIA EXTERNA CON HTTPS Y ATRIBUTO PARA ABRIR EN PESTANA     NUEVA-->
+            <a href="https://google.com" target="_BLANK">CLIK AQUI</a> <br><br>
+            <!-- REFERENCIA INTERNA  -->
+            <a href="paginas/pagina2.html">PAGINA 2</a>
+            <a href=""></a>
+        </p>
+        
+    </div>
+
+    ****************
+    <br>LISTAS <br>
+    ***************
+    <!-- LISTAS -->
+    <div>
+        <h4>LISTA DE COMPRAS NORMAL</h4>
+        <ul>
+            <li>leche</li>
+            <li>Harina</li>
+            <li>Coca</li>
+            <li>Masa</li>
+            <li>Ceral</li>
+        </ul>
+
+        <h4>LISTA DE COMPRAS ORDENADA</h4>
+        <ol>
+            <li>leche</li>
+            <li>Harina</li>
+            <li>Coca</li>
+            <li>Masa</li>
+            <li>Ceral</li>
+        </ol>
+    </div>
+
+
+
+    ****************************
+    <br>CONTENIDO MULTIMEDIA <br>
+    ****************************
+    <!-- CONTENIDO MULTIMEDIA -->
+
+    <div>
+
+        <!-- IMAGENES -->
+        ****************************
+        <br> IMAGENES <br>
+        ****************************
+        <p>PRIMER IMAGEN INTERNA</p>
+        <img src="imagenes/foto perfil.jpg" alt=primerImagen width="200px" height="200px">
+
+        <p>SEGUNDA IMAGEN EXTERNA</p>
+        <img src="https://i.pinimg.com/originals/f8/7a/dc/f87adc42dcadc2f97dcc53cc762eac31.jpg" alt="imagenExternaEnInternet" height="250px" width="250px">
+
+
+        <!-- VIDEOS -->
+        <br>****************************
+        <br> VIDEOS <br>
+        ****************************<br>
+        <video src="videos/videoUno.mp4" width="450px" controls>
+        </video>
+
+        <!-- AUDIO -->
+        <br>****************************
+        <br> AUDIO <br>
+        ****************************<br>
+        <audio src="videos/videoUno.mp4" controls></audio>
+
+    </div>
+    
+    ****************************
+    <br>FORMULARIOS <br>
+    ****************************
+    <!-- FORMULARIOS -->
+    <div>
+
+        <h4>FORMULARIO UNO: </h4> <br>
+        <form>
+
+            <input type="text">
+            <input type="password">
+            <input type="number">
+            <input type="email"> 
+            <input type="color"> 
+            <input type="range" min="10" max="100"> 
+            <input type="date">
+            <input type="time"> 
+            <input type="button" value="Boton"> <br> <br>
+
+            <input type="submit">
+        </form>
+
+        <!-- FORMULARIO CON CAPOS OBLIGATORIOS (LO CORRECTO ES HACER ESTO Y TODAS LAS VALIDACIONES EN EL LADO DEL SERVIDOR) -->
+        <h4>FORMULARIO DOS CON CAMPOS OBLIGATORIOS: </h4>
+        <form>
+
+            <input type="text" required>
+            <input type="password" required>
+            <input type="date">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea name="" id="" cols="30" rows="10" readonly> ESTE ES UN TEXtAREA que tiene un READONLY</textarea>
+            <input type="submit">
+            
+        </form>
+    </div>
+
+    ****************************
+    <br>METADATOS <br>
+    ****************************
+    <!-- METADATOS -->
+    <h4>SE ENCUENTRA EN EL APARTADO HEAD de html con etiquetas /meta/ </h4>
+
+
+    ************************************************************************
+    <br>HTML <b>SEMANTICO</b>  (BARRA NAVEGACION Y ESTRUCTURA CORRECTA DE HTML) <br>
+    *************************************************************************
+    <!-- HTML SEMANTICO -->
+    <br> <br>
+    <a href="paginas/Pagina3_Semantica.html">SEMANTICA</a>
+    
+    <!-- USAR ARTICLE, SECTION, ASIDE, FOOTER -->
+    <br> <br>******************************************
+    <br>USAR ARTICLE, SECTION, ASIDE, FOOTER <br>
+    ****************************************** <br>
+    <h4>ESTA DENTRO DE HTML SEMANTICO <a href="paginas/Pagina3_Semantica.html">SEMATICA</a></h4>
+    
+
+    <!-- TABLAS (No se usa mucho, es mejor con css) -->
+    <br> <br>***************************************
+    <br>TABLAS (No se usa mucho, es mejor con css) <br>
+    ******************************************* <br>
+
+    <table border="1px">
+        <!-- tr para filas -->
+        <tr>
+            <!-- td columnas o campos por fila con-->
+            <td> <b>Nombre</b> </td>
+            <td> <b>Apellido</b> </td>
+            <td> <b>Canal</b> </td>
+            <td> <b>Seguidores</b> </td>
+        </tr>
+
+        <tr>
+            <td> Ernesto </td>
+            <td>  Caceres</td>
+            <td>  Progra</td>
+            <td>  120000</td>
+        </tr>
+
+        <tr>
+            <td>Francisco</td>
+            <td>Rojas</td>
+            <td>Taller</td>
+            <td>100000</td>
+        </tr>
+    </table>
+
+    <!-- IMAGENES CON ATRIBUTO ALT Y TITLE -->
+    <br> <br>*****************************
+    <br>IMAGENES CON ATRIBUTO ALT Y TITLE <br>
+    *********************************** <br>
+
+    <img src="imagenes/foto perfil.jpg" alt="foto mia de perfil" width="300px" title="FOTO MIA">
+    <br> <br> <br><img src="imagenesERROR/foto perfil.jpg" alt="foto mia de perfil" width="300px" title="FOTO MIA">
+
+
+    <!-- ETIQUETA CENTER -->
+    <br> <br>***********************************************************
+    <br>ETIQUETA CENTER (NO SE RECOMIENDA USAR CENTER, HACER MEJOR CON CSS3<br>
+    *************************************************************** <br>
+
+    <center>
+        <img src="imagenes/foto perfil2.jpg" alt="foto dos de perfil" width="250px">
+        <h4>FOTO DE PERFIL MIA</h4>
+    </center>
+
+    <!-- ID -->
+    <br> <br>*******************************
+    <br>ID PARA VIAJAR EN LA MISMA PAGINA<br>
+    ************************************ <br>
+    <a href="paginas/pagina4.html"> ID PARA VIAJAR EN MISMA PAGINA</a>
+
+    <br> <br>
+
+    <!-- ICONO ARRIBA EN PESTANA DE PAGINA -->
+    <br> <br>*********************************
+    <br>ICONO ARRIVA EN PESTANA DE PAGINA<br>
+    ********************************* <br>
+
+    <h4>La etiqueta para el icono Se Encuentra En La Parte de head</h4>
+    <h4>link rel: ico y despues la ruta del archivo .ico</h4>
+</body>
+</html>
